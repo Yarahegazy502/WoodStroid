@@ -1,0 +1,635 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222222;
+    font-family: "Montserrat", Sans-serif;
+}
+/* start navbar */
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin: 0 10px;
+    font-size: 15px;
+    color: #222222;
+    text-transform:uppercase;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #feed5a;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    outline: 0;
+    border: 0;
+  }
+/* end navbar */
+
+/* start carsoul */
+.carousel{
+    overflow: hidden;
+}
+.ovelay{
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+}
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    color: #222222;
+}
+.carousel-caption h5 , .carousel-caption p{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+.carousel-caption h5 span , .carousel-caption p span{
+    font-size: 120px;
+    font-family: 'Slackey', cursive;
+  }
+.carousel-caption button{
+    padding: 20px 30px;
+    background-color: #feed5a;
+    border: #feed5a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.carousel-caption button:hover{
+    color: #feed5a;
+    background-color: transparent;
+    border:2px solid #feed5a;
+    transition: all .3s ease-in-out;
+}
+.carousel-control-prev i,
+.carousel-control-next i{
+    font-size: 60px;
+    color: #222222;
+    transition: all .3s ease-in-out;
+}
+.carousel-control-prev i:hover,
+.carousel-control-next i:hover{
+    color: #feed5a;
+}
+/*  end carsoul */
+ 
+/* start about */
+  .about{
+    padding: 80px 0;
+  }
+  .about-img img{
+    width: 100%;
+  }
+  .about-desc{
+    padding: 40px 70px;
+  }
+  .about-desc h5{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 11px;
+  }
+  .about-desc h2{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.2em;
+    letter-spacing: -1.3px;
+    width: 48%;
+    padding-top: 10px;
+  }
+  .about-desc .about-p{
+    padding: 40px 50px;
+  }
+  .about-desc p:first-child{
+      color: #222222;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: none;
+      font-style: normal;
+      line-height: 2.1em;
+      letter-spacing: 0.45px;
+      width: 80%;
+  } 
+  .about-desc p:last-child{
+    color: #494848;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 2.1em;
+    letter-spacing: 0.8px;
+    padding-top: 10px;
+  }
+  .state-item h3{
+    color: #222222;
+    font-family:"Slackey",cursive;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: none;
+    font-style: normal;
+  }
+  .state-item p{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+  }
+  .state-item{
+    position: relative;
+  }
+  .state-item:after{
+    position: absolute;
+    content: "";
+    bottom: -7px;
+    left: 0;
+    width: 30%;
+    height: 3px;
+    background-color: #feed5a;
+  }
+
+/* end about */
+
+/* start selling */
+.sellind-desc {
+  padding: 40px 130px 40px 0;
+}
+.sellind-desc h2{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: -0.7px;
+    /* width: 50%; */
+}
+.sellind-desc p{
+  font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 2.1em;
+    letter-spacing: 0.6px;
+    padding:30px 0;
+}
+.sellind-desc button{
+  padding: 10px 20px;
+  color: #222222;
+  border: 2px solid #222222;
+  background-color: transparent;
+  transition: all .3s ease-in-out;
+}
+.sellind-desc button:hover{
+  background-color: #feed5a;
+  border: #feed5a;
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+.selling-img img{
+  width: 100%;
+}
+.selling-img{
+  overflow: hidden;
+  position: relative;
+}
+.selling-img .img-element{
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 40%;
+}
+
+/* end selling */
+
+/* start hotoffer */
+.hotoffer{
+  margin-top: -150px;
+}
+.hotoffer .hotoffer-img{
+  width: 100%;
+  background-image: url('/images/Mask-Group-2.png');
+  background-color: #3c3c3c;
+  background-size: cover;
+  height: 500px;
+  padding:0 50px  ;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+.hotoffer .hotoffer-img h2{
+  color: #fff;
+  font-family: "Slackey", Sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-style: normal;
+  letter-spacing: 0px;
+  /* width: 50%; */
+}
+.group-img{
+  margin-left: -70px;
+  margin-top: -15px;
+}
+.hotoffer-img p{
+  font-family: "Slackey", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #feed5a;
+}
+.hotoffer-img .bttn{
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+}
+.hotoffer-img .bttn:hover{
+  border: 2px solid #feed5a;
+  background-color: #feed5a;
+  transition: all .3s ease-in-out;
+}
+.hotoffer-desc{
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  color: #222222;
+  flex-flow: column wrap;
+  padding-left: 50px;
+}
+.hotoffer-desc h2{
+  font-size: 55px;
+  font-family: "Slackey", Sans-serif;
+  font-weight: bold;
+  margin-top: 250px;
+  border-bottom: #222222 4px solid;
+}
+/* end hotoffer */
+
+/* start categories */
+.categories{
+  padding: 100px 0 40px 0;
+}
+.categories-h2{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-style: normal;
+    letter-spacing: -0.8px;
+    color: #222222;
+}
+.categories-link{
+  display: inline-block;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 2.1px;
+  padding: 20px 0 20px 200px;
+}
+.categories-link a{
+  color: #222222;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.categories-link a:hover{
+  color: #feed5a;
+  transition: all .3s ease-in-out;
+}
+.categories-img{
+  padding: 4px;
+  border: 1px solid #e8e7e7;
+  position: relative;
+  overflow: hidden;
+}
+.categories-img img {
+  width: 100%;
+} 
+.categories-img .link{
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+  transition: all .3s ease-in-out;
+  color: #222222;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+.categories-img:hover .link{
+  bottom: 40px;
+  left: 40px;
+  transition: all .4s ease-in-out;
+}
+.categories-img:hover img{
+  transform: scale(1.3);
+  transition: all .4s ease-in-out;
+
+}
+/* end categories */
+
+/* start discount */
+.discount{
+  background-image: url('/images/bacground.png');
+  background-size: cover;
+  height: 380px;
+}
+.discount .dis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 80px 0;
+}
+.discount .dis h2{
+  font-family: "Slackey", Sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.discount .dis .p{
+  color: #222222;
+  font-size: 19px;
+}
+.discount .dis button{
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #222222;
+  background-color: transparent;
+  border: 1px solid #222222;
+  transition: all .4s ease-in-out;
+}
+.discount .dis button:hover{
+  color: #fff;
+  background-color: #feed5a;
+  border: 1px solid #feed5a;
+  transition: all .4s ease-in-out;
+}
+
+/* end discount */
+
+/* ipad */
+@media(min-width:768px) and (max-width:991px){
+  .carousel-caption {
+    position: absolute;
+    top: 40%;
+  }
+  .carousel-caption h5 , .carousel-caption p{
+    font-size: 25px;
+  }
+  .carousel-caption h5 span , .carousel-caption p span{
+    font-size: 36px;
+  }
+  .carousel-caption button{
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      font-size: 16px;
+  }
+  .carousel-control-prev i,
+  .carousel-control-next i{
+      position:absolute;
+      top: 55%;
+  }
+  /*start about */
+  .about-desc{
+    padding: 40px 20px;
+  }
+  .about-desc h2{
+    font-size: 35px;
+    width: 90%;
+  }
+  .about-desc .about-p{
+    padding: 30px;
+  }
+  .about-desc .about-p p{
+    width: 100%;
+  }
+  .about{
+    padding: 20px 0;
+  }
+  .state-item h3{
+    font-size: 45px;
+  }
+
+   
+/* end about */
+/* start selling */
+.sellind-desc {
+  padding: 23px 23px 23px 
+}
+.sellind-desc h2 {
+  font-size: 43px;
+}
+.sellind-desc p {
+  font-size: 13px;
+  line-height: 2em;
+  padding: 17px 0;
+}
+/* end selling */
+
+/* start hotoffer */
+.hotoffer{
+  margin-top: -20px;
+}
+.hotoffer .hotoffer-img h2{
+  font-size: 70px;
+}
+.group-img{
+  margin-left: -8px;
+  margin-top: -3px;
+} 
+.hotoffer-desc{
+  padding-left: 0px;
+}
+.hotoffer-desc h2{
+  font-size: 48px;
+}
+/* end hotoffer */
+
+/* start categories */
+.categories-link{ 
+  padding: 20px 0 20px 50px;
+}
+.categories-img .link{
+  position: absolute;
+  bottom: -50px;
+  left: -20px;
+  transition: all .3s ease-in-out;
+  color: #222222;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* end categories */
+}
+ /*phone  */
+ @media(max-width:375px){
+  .navbar-brand {
+    width:68%;
+  }
+  .navbar-brand img{
+    width: 100%;
+  }
+  .navbar-nav{
+    margin-top: 20px;
+  }
+  /* start carousel */
+   
+  .cars{
+      width: 100%;
+  }
+  .carousel-caption {
+      position: absolute;
+      top: 30%;
+    }
+    .carousel-caption h5 , .carousel-caption p{
+      font-size: 14px;
+    }
+    .carousel-caption h5 span , .carousel-caption p span{
+      font-size: 23px;
+    }
+    .carousel-caption button{
+        padding: 6px 15px;
+        font-size: 10px;
+        position: absolute;
+        left: 76px;
+        bottom: -14px;
+    }
+    .carousel-control-prev i,
+    .carousel-control-next i{
+        position:absolute;
+        font-size: 45px;
+        top: 55%;
+    }  
+  /* end carousel */
+    
+
+    /*start about */
+      .about-desc{
+        padding: 40px 20px;
+      }
+      .about-desc h2{
+        font-size: 30px;
+        width: 100%;
+      }
+      .about-desc .about-p{
+        padding: 30px 0px;
+      }
+      .about-desc .about-p p{
+        width: 100%;
+      }
+      .about{
+        padding: 20px 0 0 0;
+      }
+      .state-item{
+        text-align: center;
+        margin:10px auto;
+      }
+      .state-item:after{
+        position: absolute;
+        content: "";
+        bottom: -7px;
+        left: 115px;
+        width: 23%;
+        height: 3px;
+        background-color: #feed5a;
+      }
+    /* end about */
+    
+    /* start selling */
+.sellind-desc {
+  padding: 0px 23px 23px ;
+  text-align: left;
+}
+.sellind-desc h2 {
+  font-size: 43px;
+}
+.sellind-desc p {
+  font-size: 13px;
+  line-height: 2em;
+  padding: 17px 0;
+}
+/* end selling */
+/* start hotoffer */
+.hotoffer{
+  margin-top: 15px;
+}
+.hotoffer .hotoffer-img h2{ 
+  font-size: 60px; 
+}
+.group-img img{
+  width: 30%;
+  margin-top: -250px;
+  margin-left: 200px;
+} 
+.hotoffer-desc{ 
+  padding-left: 20px;
+}
+.hotoffer-desc h2{
+  font-size: 42px; 
+  margin: 20px 0; 
+/* end hotoffer */
+} 
+/* start categories */
+.categories{
+  padding: 50px 0;
+} 
+.categories-link{ 
+  padding: 20px 0 0px 0px;
+}
+.categories-img{
+  margin-bottom: 10px;
+  height: 109px;
+}
+.categories{
+  padding-bottom: 20px;
+}
+/* end categories */
+
+/* start discount */
+.discount .dis h2{
+  font-family: "Slackey", Sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.discount .dis p{
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
+.discount .dis button{
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #222222;
+  background-color: transparent;
+  border: 1px solid #222222;
+  transition: all .4s ease-in-out;
+}
+/* end discount */
+ }
